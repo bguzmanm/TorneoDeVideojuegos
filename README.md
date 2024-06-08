@@ -1,8 +1,8 @@
-**Descripción del Problema:**
+# Descripción del Problema
 
 Imagina que eres el organizador de un torneo de videojuegos. Necesitas desarrollar un programa en Java para gestionar los equipos participantes, los jugadores de cada equipo y los resultados de los partidos. Los equipos pueden inscribirse al torneo, agregar jugadores a sus equipos y registrar los resultados de los partidos. Al final, el programa debe ser capaz de mostrar un ranking de los equipos basado en los resultados de los partidos.
 
-**Requisitos Específicos:**
+## Requisitos Específicos
 
 1. **Gestión de Equipos y Jugadores:**
     1. Cada equipo tiene un nombre único y una lista de jugadores.
@@ -20,7 +20,7 @@ Imagina que eres el organizador de un torneo de videojuegos. Necesitas desarroll
     2. Usa HashMap para gestionar los equipos, donde la clave es el nombre del equipo y el valor es el objeto equipo que contiene la lista de jugadores y sus puntos.
     3. Usa ArrayList para gestionar los resultados de los partidos.
 
-**Clase Principal y Estructuras de Datos:**
+## Clase Principal y Estructuras de Datos:
 
 Define las siguientes clases para ayudarte a organizar el código:
 
@@ -34,7 +34,7 @@ Define las siguientes clases para ayudarte a organizar el código:
     1. Atributos: equipos (HashMap<String, Equipo>), resultados de partidos (ArrayList<String>).
     2. Métodos: métodos para agregar equipos, agregar jugadores a equipos, registrar resultados de partidos, mostrar ranking de equipos.
 
-**Ejemplo de Interacción:**
+# Ejemplo de Interacción
 
 ```java
 public class TorneoDeVideojuegos {
